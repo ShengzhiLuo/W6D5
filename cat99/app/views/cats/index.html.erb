@@ -1,0 +1,10 @@
+<h1> Here are all of my cats: </h1>
+<ul>
+    <% @cats.each do |k| %>
+        <li> <%= k.birth_date %> </li>
+        <li> <%= k.color %> </li>
+        <li> <%= k.name %> </li>
+        <li> <%= k.sex %> </li>
+        <li> <%= k.description %> </li>
+    <% end %>
+</ul>
